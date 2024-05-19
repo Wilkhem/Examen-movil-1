@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "@screens/*": [
+        "screens/*"
+      ],
+      "@context/*": [
+        "context/*"
+      ]
+    }
+  },
+  "include": [
+    "App.tsx",
+    "screens/**/*.tsx",
+    "context/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
